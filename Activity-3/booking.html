@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Ticket Booking</title>
+</head>
+<body>
+
+    <a href="index.html">Home</a>
+
+    <h1>Book Your IPL Tickets</h1>
+
+    <form action="#" method="get">
+
+        <label for="name">Name:</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            minlength="3"
+            maxlength="50"
+            pattern="[A-Za-z ]+"
+            title="Enter your name using letters and spaces only."
+            required
+        >
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required
+        >
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{10}"
+            minlength="10"
+            maxlength="10"
+            title="Enter exactly 10 digits."
+            required
+        >
+        <br><br>
+
+        <label for="match">Select Match:</label>
+        <select id="match" name="match" required>
+            <option value="">-- Choose a match --</option>
+            <option value="RCB vs CSK">RCB vs CSK</option>
+            <option value="MI vs KKR">MI vs KKR</option>
+            <option value="CSK vs MI">CSK vs MI</option>
+        </select>
+        <br><br>
+
+        <label for="stand">Stand Category:</label>
+        <select id="stand" name="stand" required>
+            <option value="">-- Choose a stand --</option>
+            <option value="General">General</option>
+            <option value="Premium">Premium</option>
+            <option value="VIP">VIP</option>
+        </select>
+        <br><br>
+
+        <label for="quantity">Number of Tickets (1 to 10):</label>
+        <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            min="1"
+            max="10"
+            value="1"
+            required
+        >
+        <br><br>
+
+        <p>Ticket Delivery:</p>
+
+        <input
+            type="radio"
+            id="e-ticket"
+            name="delivery"
+            value="E-ticket"
+            required
+        >
+        <label for="e-ticket">E-ticket</label>
+
+        <input
+            type="radio"
+            id="stadium"
+            name="delivery"
+            value="Collect at stadium"
+        >
+        <label for="stadium">Collect at stadium</label>
+        <br><br>
+
+        <input
+            type="checkbox"
+            id="terms"
+            name="terms"
+            value="accepted"
+            required
+        >
+        <label for="terms">I agree to the terms and conditions</label>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <br>
+    <a href="index.html">Back to Home</a>
+
+</body>
+</html>
