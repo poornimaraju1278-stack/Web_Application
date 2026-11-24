@@ -1,4 +1,3 @@
-
 /* General Page Styling */
 
 * {
@@ -8,8 +7,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
-    color: #222;
+    background-color: #f0fdfa;
+    color: #243b3b;
     line-height: 1.6;
 }
 
@@ -17,7 +16,7 @@ body {
 /* Header and Navigation - Flexbox */
 
 header {
-    background-color: #111827;
+    background-color: #134e4a;
     color: white;
     padding: 20px;
 }
@@ -50,7 +49,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fbbf24;
+    color: #99f6e4;
 }
 
 
@@ -76,8 +75,8 @@ section {
 }
 
 h2 {
-    color: #c62828;
-    border-bottom: 2px solid #c62828;
+    color: #0f766e;
+    border-bottom: 2px solid #0f766e;
     padding-bottom: 8px;
 }
 
@@ -89,7 +88,7 @@ h2 {
 }
 
 #home h2 {
-    color: #111827;
+    color: #134e4a;
 }
 
 
@@ -113,18 +112,18 @@ table {
 }
 
 th {
-    background-color: #c62828;
+    background-color: #0f766e;
     color: white;
 }
 
 th, td {
     padding: 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #cbded9;
     text-align: center;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f0fdfa;
 }
 
 
@@ -145,7 +144,7 @@ input, select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #bbb;
+    border: 1px solid #a7c9c3;
     border-radius: 5px;
 }
 
@@ -157,7 +156,7 @@ a {
 }
 
 button, input[type="submit"] {
-    background-color: #c62828;
+    background-color: #0f766e;
     color: white;
     padding: 10px 18px;
     border: none;
@@ -166,7 +165,7 @@ button, input[type="submit"] {
 }
 
 button:hover, input[type="submit"]:hover {
-    background-color: #8e0000;
+    background-color: #134e4a;
 }
 
 
@@ -200,7 +199,7 @@ button:hover, input[type="submit"]:hover {
 }
 
 .view-controls .active-view {
-    background-color: #111827;
+    background-color: #134e4a;
 }
 
 
@@ -214,9 +213,9 @@ button:hover, input[type="submit"]:hover {
 }
 
 .match-card {
-    background-color: #fff8f8;
-    border: 1px solid #ddd;
-    border-left: 5px solid #c62828;
+    background-color: #f0fdfa;
+    border: 1px solid #cbded9;
+    border-left: 5px solid #0f766e;
     border-radius: 10px;
     padding: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -228,12 +227,12 @@ button:hover, input[type="submit"]:hover {
 }
 
 .match-card h3 {
-    color: #c62828;
+    color: #0f766e;
     margin-top: 0;
 }
 
 .match-card h4 {
-    color: #111827;
+    color: #134e4a;
     font-size: 20px;
 }
 
@@ -243,7 +242,7 @@ button:hover, input[type="submit"]:hover {
 
 .match-card .book-btn {
     display: inline-block;
-    background-color: #c62828;
+    background-color: #0f766e;
     color: white;
     padding: 9px 15px;
     text-decoration: none;
@@ -252,12 +251,12 @@ button:hover, input[type="submit"]:hover {
 }
 
 .match-card .book-btn:hover {
-    background-color: #8e0000;
+    background-color: #134e4a;
 }
 
 .no-matches {
     text-align: center;
-    color: #c62828;
+    color: #0f766e;
     font-weight: bold;
 }
 
@@ -289,23 +288,23 @@ button:hover, input[type="submit"]:hover {
     max-width: 650px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff8f8;
-    border: 2px solid #c62828;
+    background-color: #f0fdfa;
+    border: 2px solid #0f766e;
     border-radius: 10px;
 }
 
 .summary-card h3 {
-    color: #c62828;
+    color: #0f766e;
     margin-top: 0;
 }
 
 .summary-card p {
     padding: 8px 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #cbded9;
 }
 
 .summary-card strong {
-    color: #c62828;
+    color: #0f766e;
     font-size: 20px;
 }
 
@@ -320,15 +319,15 @@ button:hover, input[type="submit"]:hover {
 }
 
 .guideline-card {
-    background-color: #fff8f8;
-    border: 1px solid #ddd;
+    background-color: #f0fdfa;
+    border: 1px solid #cbded9;
     border-radius: 8px;
     padding: 15px;
-    border-top: 4px solid #c62828;
+    border-top: 4px solid #0f766e;
 }
 
 .guideline-card h3 {
-    color: #c62828;
+    color: #0f766e;
     margin-top: 0;
 }
 
@@ -339,7 +338,7 @@ button:hover, input[type="submit"]:hover {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: #222;
+    background-color: #134e4a;
     color: white;
     padding: 15px 25px;
     border-radius: 8px;
@@ -365,7 +364,7 @@ button:hover, input[type="submit"]:hover {
 /* Footer */
 
 footer {
-    background-color: #111827;
+    background-color: #134e4a;
     color: white;
     text-align: center;
     padding: 15px;

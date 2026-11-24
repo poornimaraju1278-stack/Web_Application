@@ -5,73 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPL Ticket Booking</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- Correct CSS filename -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <a href="index.html">Home</a>
+    <header>
+        <h1>IPL Ticket Booking</h1>
 
-    <form action="#" method="post" id="ticketForm">
+        <nav>
+            <a href="indext.html">Home</a>
+            <a href="indext.html#about">About IPL</a>
+            <a href="indext.html#matches">Matches</a>
+            <a href="booking.html">Book Ticket</a>
+        </nav>
+    </header>
+
+    <section id="booking">
         <h2>Book Your IPL Tickets</h2>
 
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name"
-               required minlength="3" maxlength="50">
-        <br><br>
+        <form action="#" method="post" id="ticketForm">
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-        <br><br>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   required minlength="3" maxlength="50">
 
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone"
-               required minlength="10" maxlength="10"
-               pattern="[0-9]{10}"
-               title="Enter a 10 digit phone number">
-        <br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
 
-        <label for="match">Select Match</label>
-        <select id="match" name="match" required>
-            <option value="">-- Choose a match --</option>
-            <option value="RCB vs CSK">RCB vs CSK</option>
-            <option value="MI vs KKR">MI vs KKR</option>
-        </select>
-        <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+                   required minlength="10" maxlength="10"
+                   pattern="[0-9]{10}"
+                   title="Enter a 10 digit phone number">
 
-        <label for="stand">Stand Category</label>
-        <select id="stand" name="stand" required>
-            <option value="">-- Choose a stand --</option>
-            <option value="General">General</option>
-            <option value="Premium">Premium</option>
-            <option value="VIP">VIP</option>
-        </select>
-        <br><br>
+            <label for="match">Select Match:</label>
+            <select id="match" name="match" required>
+                <option value="">Choose a Match</option>
+                <option value="RCB vs CSK">RCB vs CSK</option>
+                <option value="MI vs KKR">MI vs KKR</option>
+                <option value="CSK vs SRH">CSK vs SRH</option>
+            </select>
 
-        <label for="tickets">Number of Tickets (1 to 10)</label>
-        <input type="number" id="tickets" name="tickets"
-               required min="1" max="10">
-        <br><br>
+            <label for="stand">Select Stand Category:</label>
+            <select id="stand" name="stand" required>
+                <option value="">Choose a Stand</option>
+                <option value="General">General Stand</option>
+                <option value="Premium">Premium Stand</option>
+                <option value="VIP">VIP Stand</option>
+            </select>
 
-        <p>Ticket Delivery:</p>
+            <label for="tickets">Number of Tickets (1 to 10):</label>
+            <input type="number" id="tickets" name="tickets"
+                   required min="1" max="10">
 
-        <input type="radio" id="email-ticket"
-               name="delivery" value="Email" required>
-        <label for="email-ticket">E-ticket</label>
+            <p>Ticket Delivery:</p>
 
-        <input type="radio" id="pickup"
-               name="delivery" value="Pickup">
-        <label for="pickup">Collect at stadium</label>
-        <br><br>
+            <input type="radio" id="email-ticket"
+                   name="delivery" value="Email" required>
+            <label for="email-ticket">E-ticket</label>
 
-        <input type="checkbox" id="terms" name="terms" required>
-        <label for="terms">I agree to the terms and conditions</label>
-        <br><br>
+            <input type="radio" id="pickup"
+                   name="delivery" value="Pickup">
+            <label for="pickup">Collect at stadium</label>
 
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-    </form>
+            <br><br>
 
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label>
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 IPL Ticket Booking. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript File -->
     <script src="app.js"></script>
 
 </body>

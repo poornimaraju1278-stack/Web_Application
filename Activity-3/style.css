@@ -6,14 +6,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
-    color: #222;
+    background-color: #f0fdfa;
+    color: #243b3b;
     line-height: 1.6;
 }
 
 /* Header and Navigation */
 header {
-    background-color: #111827;
+    background-color: #134e4a;
     color: white;
     text-align: center;
     padding: 20px;
@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #fbbf24;
+    color: #99f6e4;
 }
 
 /* Sections */
@@ -50,8 +50,8 @@ section {
 }
 
 h2 {
-    color: #c62828;
-    border-bottom: 2px solid #c62828;
+    color: #0f766e;
+    border-bottom: 2px solid #0f766e;
     padding-bottom: 8px;
 }
 
@@ -61,7 +61,7 @@ section:first-of-type {
 }
 
 section:first-of-type h2 {
-    color: #111827;
+    color: #134e4a;
 }
 
 /* Lists */
@@ -81,18 +81,18 @@ table {
 }
 
 th {
-    background-color: #c62828;
+    background-color: #0f766e;
     color: white;
 }
 
 th, td {
     padding: 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #cbded9;
     text-align: center;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f0fdfa;
 }
 
 /* Forms */
@@ -111,7 +111,7 @@ input, select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #bbb;
+    border: 1px solid #a7c9c3;
     border-radius: 5px;
 }
 
@@ -121,11 +121,11 @@ a {
 }
 
 a:hover {
-    color: #c62828;
+    color: #0f766e;
 }
 
 button, input[type="submit"] {
-    background-color: #c62828;
+    background-color: #0f766e;
     color: white;
     padding: 10px 18px;
     border: none;
@@ -134,12 +134,12 @@ button, input[type="submit"] {
 }
 
 button:hover, input[type="submit"]:hover {
-    background-color: #8e0000;
+    background-color: #134e4a;
 }
 
 /* Footer */
 footer {
-    background-color: #111827;
+    background-color: #134e4a;
     color: white;
     text-align: center;
     padding: 15px;
