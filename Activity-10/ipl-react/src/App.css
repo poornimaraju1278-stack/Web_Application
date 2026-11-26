@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #222;
+}
+
+/* Navbar */
+nav {
+  background: #101b3f;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  color: #ffcc00;
+}
+
+nav div {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(120deg, #101b3f, #263f80);
+  color: white;
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  display: inline-block;
+  background: #ffcc00;
+  color: #101b3f;
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Matches */
+#matches {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+#matches h1 {
+  margin-bottom: 30px;
+  color: #101b3f;
+}
+
+.matches-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.match-card {
+  background: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.match-card h2 {
+  color: #101b3f;
+  margin-bottom: 20px;
+}
+
+.match-card p {
+  margin: 12px 0;
+}
+
+.match-card button {
+  background: #101b3f;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.match-card button:hover {
+  background: #ffcc00;
+  color: #101b3f;
+}
+
+/* Footer */
+footer {
+  background: #101b3f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
